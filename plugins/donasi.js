@@ -1,7 +1,6 @@
 let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, fla + 'donasi', `
 ┌「 *Donasi • Emoney* 」
-├ https://saweria.co/ariffb
-├ https://trakteer.id/ariffb/tip
+├ 60102810046
 └────
 `.trim(), '© stikerin', 'Donasi', '.donasi', m)
 handler.help = ['donasi']
